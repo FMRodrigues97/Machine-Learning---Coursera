@@ -28,7 +28,7 @@ sigma_values = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
 tamanho = length(C_values);
 
 
-% Matrix containing the all the possible pairs (C, sigma)
+% Matrix containing all the possible pairs (C, sigma)
 pairs_C_sigma = zeros(tamanho^2, 2);
 k = 1;
 
